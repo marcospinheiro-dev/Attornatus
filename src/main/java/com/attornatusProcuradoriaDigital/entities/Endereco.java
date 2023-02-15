@@ -13,10 +13,10 @@ public class Endereco {
     private int CEP;
     private int numeroCasa;
 
+    // Composiçao
     @ManyToOne
     @JoinColumn(name = "id_pessoa")
     private Pessoa pessoa;
-
 
     public Endereco() {
     }

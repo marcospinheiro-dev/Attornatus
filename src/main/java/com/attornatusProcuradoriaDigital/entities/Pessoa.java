@@ -15,8 +15,10 @@ public class Pessoa {
     private Long id;
     private String nome;
     private LocalDate dataNascimento;
+
+    // Composiçao
     @OneToMany
-    @JoinColumn(name = "id_pessoa")
+//    @JoinColumn(name = "id_pessoa")
     private List<Endereco> endereco;
 
     public Pessoa() {
