@@ -22,7 +22,7 @@ public class Endereco {
     }
 
     public Endereco(Long id, String logradouro, int CEP, int numeroCasa) {
-//        this.id = id;
+        this.id = id;
         this.logradouro = logradouro;
         this.CEP = CEP;
         this.numeroCasa = numeroCasa;

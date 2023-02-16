@@ -18,7 +18,7 @@ public class Pessoa {
 
     // Composiçao
     @OneToMany
-//    @JoinColumn(name = "id_pessoa")
+    @JoinColumn(name = "id_pessoa")
     private List<Endereco> endereco;
 
     public Pessoa() {
