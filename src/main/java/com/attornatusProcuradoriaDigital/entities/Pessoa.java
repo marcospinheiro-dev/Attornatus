@@ -62,4 +62,6 @@ public class Pessoa {
     public void setEndereco(List<Endereco> endereco) {
         this.endereco = endereco;
     }
+
+
 }
