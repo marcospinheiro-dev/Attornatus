@@ -21,11 +21,12 @@ public class Endereco {
     public Endereco() {
     }
 
-    public Endereco(Long id, String logradouro, int CEP, int numeroCasa) {
+    public Endereco(Long id, String logradouro, int CEP, int numeroCasa, Pessoa pessoa) {
         this.id = id;
         this.logradouro = logradouro;
         this.CEP = CEP;
         this.numeroCasa = numeroCasa;
+        this.pessoa = pessoa;
     }
 
     public String getLogradouro() {
